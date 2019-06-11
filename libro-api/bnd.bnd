@@ -1,0 +1,9 @@
+Bundle-Name: libro-api
+Bundle-SymbolicName: libro.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	libro.exception,\
+	libro.model,\
+	libro.service,\
+	libro.service.persistence
+-includeresource: META-INF/service.xml=../libro-service/service.xml
